@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="full_robot" >
+
+  <!-- common stuff -->
+  <xacro:include filename="$(find ur_e_description)/urdf/common.gazebo.xacro" />
+
+  <xacro:include filename="$(find ur_e_description)/urdf/ur3e.urdf.xacro"/>
+
+  <xacro:include filename="$(find full_robot)/urdf/rg2.urdf.xacro" />
+
+  <xacro:include filename="$(find full_robot)/urdf/er5.urdf.xacro" />
+  <xacro:include filename="$(find full_robot)/urdf/camera.urdf.xacro"/>
+
+  <!-- arm -->
+  <xacro:ur3e_robot prefix="" joint_limited="false"/>
+  <xacro:rg2 prefix=""/>
+  <xacro:er5 prefix=""/>
+
+  <!-- joints required to connect  -->
+
+  
+  <joint name="er5_to_ur3e" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 -1.57"/>
+    <parent link="er5_body_link"/>
+    <child link="base_link"/>
+  </joint>
+
+  <joint name="ur3e_to_gripper" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="tool0"/>
+    <child link="gripper_extender_link"/>
+  </joint>
+  
+
+  <link name="world" />
+  <xacro:camera_one parent="world" prefix=""/>
+  <joint name="world_joint" type="fixed">
+    <parent link="world" />
+    <child link = "er5_body_link" />
+    <origin xyz="0.0 0.0 1" rpy="0.0 0.0 0.0" />
+  </joint>
+
+</robot>

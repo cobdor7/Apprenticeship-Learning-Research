@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: robot_descriptions
+Description: Description of robot_descriptions
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: 

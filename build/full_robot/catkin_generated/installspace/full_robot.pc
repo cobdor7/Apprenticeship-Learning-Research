@@ -1,0 +1,8 @@
+prefix=/home/cobdor/bogertws/install
+
+Name: full_robot
+Description: Description of full_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

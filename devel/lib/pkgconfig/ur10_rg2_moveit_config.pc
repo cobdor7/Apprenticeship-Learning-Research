@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: ur10_rg2_moveit_config
+Description: Description of ur10_rg2_moveit_config
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: 
