@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dr.-Bogert-Apprenticeship-Learning-Research
+=======
+# Apprenticeship-Learning-Research-with-UR3e-Kinectv2
+>>>>>>> 1a2010298b23b1e7acab32c61b20f94d4fcb5de0
 Performance guarantees for online apprenticeship learning with unknown features using the UR3-ER5-RG2 
 =======
 # Apprenticeship-Learning-with-UR3e
