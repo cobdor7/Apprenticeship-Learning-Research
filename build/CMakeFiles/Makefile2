@@ -98,6 +98,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/run_tests.dir/all: universal_robot/ur_bringup/CMakeFiles/_run_tests_ur_bringup.dir/all
 CMakeFiles/run_tests.dir/all: universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/all
 CMakeFiles/run_tests.dir/all: universal_robot/ur_gazebo/CMakeFiles/_run_tests_ur_gazebo.dir/all
+CMakeFiles/run_tests.dir/all: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/all
 CMakeFiles/run_tests.dir/all: universal_robot/ur10_e_moveit_config/CMakeFiles/_run_tests_ur10_e_moveit_config.dir/all
 CMakeFiles/run_tests.dir/all: universal_robot/ur10_moveit_config/CMakeFiles/_run_tests_ur10_moveit_config.dir/all
 CMakeFiles/run_tests.dir/all: universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/all
@@ -445,6 +446,24 @@ clean: iai_kinect2/iai_kinect2/CMakeFiles/_catkin_empty_exported_target.dir/clea
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory rg2_gripper
+
+# Convenience name for "all" pass in the directory.
+rg2_gripper/all:
+
+.PHONY : rg2_gripper/all
+
+# Convenience name for "clean" pass in the directory.
+rg2_gripper/clean:
+
+.PHONY : rg2_gripper/clean
+
+# Convenience name for "preinstall" pass in the directory.
+rg2_gripper/preinstall:
+
+.PHONY : rg2_gripper/preinstall
+
+#=============================================================================
 # Directory level rules for directory universal_robot/universal_robots
 
 # Convenience name for "all" pass in the directory.
@@ -590,7 +609,7 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/all: uni
 universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/all: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76 "Built target ur_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=69,70,71,72,73,74,75,76,77,78 "Built target ur_msgs_generate_messages_nodejs"
 .PHONY : universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -769,7 +788,7 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/all: univers
 universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/all: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87,88 "Built target ur_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=79,80,81,82,83,84,85,86,87,88,89,90 "Built target ur_msgs_generate_messages_py"
 .PHONY : universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -907,7 +926,7 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/all: univer
 universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/all: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55,56 "Built target ur_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58 "Built target ur_msgs_generate_messages_eus"
 .PHONY : universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -981,7 +1000,7 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/all: unive
 universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/all: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66 "Built target ur_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67,68 "Built target ur_msgs_generate_messages_lisp"
 .PHONY : universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1407,7 +1426,7 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/all: univer
 universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/all: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45 "Built target ur_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47 "Built target ur_msgs_generate_messages_cpp"
 .PHONY : universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4028,7 +4047,7 @@ universal_robot/ur_driver/preinstall:
 universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/all:
 	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/build.make universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/depend
 	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/build.make universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=35 "Built target ur_driver_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=37 "Built target ur_driver_gencfg"
 .PHONY : universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/all
 
 # Include target in all.
@@ -4622,7 +4641,7 @@ universal_robot/ur_kinematics/preinstall:
 universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/all: universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/all
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/depend
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=33,34 "Built target ur5_moveit_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=35,36 "Built target ur5_moveit_plugin"
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/all
 
 # Include target in all.
@@ -4659,7 +4678,7 @@ clean: universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/clean
 universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/all: universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/all
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/depend
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=29,30 "Built target ur3_moveit_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=31,32 "Built target ur3_moveit_plugin"
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/all
 
 # Include target in all.
@@ -4696,7 +4715,7 @@ clean: universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/clean
 universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/all:
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/depend
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=31,32 "Built target ur5_kin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=33,34 "Built target ur5_kin"
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/all
 
 # Include target in all.
@@ -5469,7 +5488,7 @@ clean: universal_robot/ur_kinematics/CMakeFiles/object_recognition_msgs_generate
 universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/all:
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/depend
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=27,28 "Built target ur3_kin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=29,30 "Built target ur3_kin"
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/all
 
 # Include target in all.
@@ -5570,7 +5589,7 @@ clean: universal_robot/ur_kinematics/CMakeFiles/object_recognition_msgs_generate
 universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/all:
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/depend
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=23,24 "Built target ur10_kin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=25,26 "Built target ur10_kin"
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/all
 
 # Include target in all.
@@ -5671,7 +5690,7 @@ clean: universal_robot/ur_kinematics/CMakeFiles/moveit_msgs_generate_messages_li
 universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/all: universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/all
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/depend
 	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=25,26 "Built target ur10_moveit_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=27,28 "Built target ur10_moveit_plugin"
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/all
 
 # Include target in all.
@@ -5826,6 +5845,343 @@ universal_robot/ur_kinematics/CMakeFiles/trajectory_msgs_generate_messages_lisp.
 
 # clean rule for target.
 clean: universal_robot/ur_kinematics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory pick_place
+
+# Convenience name for "all" pass in the directory.
+pick_place/all: pick_place/CMakeFiles/pick_place.dir/all
+
+.PHONY : pick_place/all
+
+# Convenience name for "clean" pass in the directory.
+pick_place/clean: pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean
+pick_place/clean: pick_place/CMakeFiles/pick_place.dir/clean
+
+.PHONY : pick_place/clean
+
+# Convenience name for "preinstall" pass in the directory.
+pick_place/preinstall:
+
+.PHONY : pick_place/preinstall
+
+#=============================================================================
+# Target rules for target pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir
+
+# All Build rule for target.
+pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all:
+	$(MAKE) -f pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build.make pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/depend
+	$(MAKE) -f pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build.make pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target moveit_ros_manipulation_gencfg"
+.PHONY : pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+
+# Build rule for subdir invocation for target.
+pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/rule
+
+# Convenience name for target.
+moveit_ros_manipulation_gencfg: pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/rule
+
+.PHONY : moveit_ros_manipulation_gencfg
+
+# clean rule for target.
+pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean:
+	$(MAKE) -f pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build.make pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean
+.PHONY : pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean
+
+# clean rule for target.
+clean: pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pick_place/CMakeFiles/pick_place.dir
+
+# All Build rule for target.
+pick_place/CMakeFiles/pick_place.dir/all:
+	$(MAKE) -f pick_place/CMakeFiles/pick_place.dir/build.make pick_place/CMakeFiles/pick_place.dir/depend
+	$(MAKE) -f pick_place/CMakeFiles/pick_place.dir/build.make pick_place/CMakeFiles/pick_place.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num=23,24 "Built target pick_place"
+.PHONY : pick_place/CMakeFiles/pick_place.dir/all
+
+# Include target in all.
+all: pick_place/CMakeFiles/pick_place.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+pick_place/CMakeFiles/pick_place.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 pick_place/CMakeFiles/pick_place.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : pick_place/CMakeFiles/pick_place.dir/rule
+
+# Convenience name for target.
+pick_place: pick_place/CMakeFiles/pick_place.dir/rule
+
+.PHONY : pick_place
+
+# clean rule for target.
+pick_place/CMakeFiles/pick_place.dir/clean:
+	$(MAKE) -f pick_place/CMakeFiles/pick_place.dir/build.make pick_place/CMakeFiles/pick_place.dir/clean
+.PHONY : pick_place/CMakeFiles/pick_place.dir/clean
+
+# clean rule for target.
+clean: pick_place/CMakeFiles/pick_place.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory full_robot_moveit_config
+
+# Convenience name for "all" pass in the directory.
+full_robot_moveit_config/all:
+
+.PHONY : full_robot_moveit_config/all
+
+# Convenience name for "clean" pass in the directory.
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/clean
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/clean
+full_robot_moveit_config/clean: full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/clean
+
+.PHONY : full_robot_moveit_config/clean
+
+# Convenience name for "preinstall" pass in the directory.
+full_robot_moveit_config/preinstall:
+
+.PHONY : full_robot_moveit_config/preinstall
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/all: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target _run_tests_full_robot_moveit_config_roslaunch-check"
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/rule
+
+# Convenience name for target.
+_run_tests_full_robot_moveit_config_roslaunch-check: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/rule
+
+.PHONY : _run_tests_full_robot_moveit_config_roslaunch-check
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/all: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/all
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target _run_tests_full_robot_moveit_config"
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/rule
+
+# Convenience name for target.
+_run_tests_full_robot_moveit_config: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/rule
+
+.PHONY : _run_tests_full_robot_moveit_config
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/all: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target run_tests_full_robot_moveit_config_roslaunch-check"
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/rule
+
+# Convenience name for target.
+run_tests_full_robot_moveit_config_roslaunch-check: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/rule
+
+.PHONY : run_tests_full_robot_moveit_config_roslaunch-check
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml"
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
+
+# Convenience name for target.
+run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
+
+.PHONY : run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all: CMakeFiles/tests.dir/all
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all: full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/all
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml"
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
+
+# Convenience name for target.
+_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
+
+.PHONY : _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/all: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/all
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target run_tests_full_robot_moveit_config"
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/rule
+
+# Convenience name for target.
+run_tests_full_robot_moveit_config: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/rule
+
+.PHONY : run_tests_full_robot_moveit_config
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir
+
+# All Build rule for target.
+full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/all:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/depend
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cobdor/bogertws/build/CMakeFiles --progress-num= "Built target clean_test_results_full_robot_moveit_config"
+.PHONY : full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/all
+
+# Build rule for subdir invocation for target.
+full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cobdor/bogertws/build/CMakeFiles 0
+.PHONY : full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/rule
+
+# Convenience name for target.
+clean_test_results_full_robot_moveit_config: full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/rule
+
+.PHONY : clean_test_results_full_robot_moveit_config
+
+# clean rule for target.
+full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/clean:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/clean
+.PHONY : full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/clean
+
+# clean rule for target.
+clean: full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/clean
 
 .PHONY : clean
 

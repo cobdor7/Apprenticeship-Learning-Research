@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cobdor/bogertws/build
 include universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/progress.make
 
 universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg:
-	cd /home/cobdor/bogertws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ur_msgs /home/cobdor/bogertws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg 
+	cd /home/cobdor/bogertws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ur_msgs /home/cobdor/bogertws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg 
 
 _ur_msgs_generate_messages_check_deps_MasterboardDataMsg: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg
 _ur_msgs_generate_messages_check_deps_MasterboardDataMsg: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build.make

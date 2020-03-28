@@ -29,9 +29,10 @@ def callbackRGB(data):
 if __name__ == '__main__':
 
 	rospy.init_node('camera_node')
-	rospy.Subscriber('/kinect2/hd/image_color', Image, callbackRGB)
-	#rospy.Subscriber('/kinect2/qhd/image_color', Image, callbackRGB)
+	#rospy.Subscriber('/kinect2/hd/image_color', Image, callbackRGB)
+	rospy.Subscriber('/kinect2/qhd/image_color', Image, callbackRGB)
 	rospy.Subscriber('/kinect2/sd/image_depth', Image, callbackDepth)
+	#rospy.Subscriber('/kinect2/qhd/image_depth_rect', Image, callbackDepth)
 	rate = 100
 	r = rospy.Rate(rate)
 	while RGB_image is None:

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cobdor/bogertws/build
 include universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/progress.make
 
 universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup:
-	cd /home/cobdor/bogertws/build/universal_robot/ur_bringup && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/cobdor/bogertws/build/test_results/ur_bringup
+	cd /home/cobdor/bogertws/build/universal_robot/ur_bringup && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/cobdor/bogertws/build/test_results/ur_bringup
 
 clean_test_results_ur_bringup: universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup
 clean_test_results_ur_bringup: universal_robot/ur_bringup/CMakeFiles/clean_test_results_ur_bringup.dir/build.make

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_278b2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_278b2.dir/build.make CMakeFiles/cmTC_278b2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_781ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_781ba.dir/build.make CMakeFiles/cmTC_781ba.dir/build
 make[1]: Entering directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_278b2.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_278b2.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_278b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_278b2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_278b2.dir/CheckSymbolExists.c.o  -o cmTC_278b2 -rdynamic 
-CMakeFiles/cmTC_278b2.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_781ba.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_781ba.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_781ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_781ba.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_781ba.dir/CheckSymbolExists.c.o  -o cmTC_781ba -rdynamic 
+CMakeFiles/cmTC_781ba.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_278b2.dir/build.make:97: recipe for target 'cmTC_278b2' failed
-make[1]: *** [cmTC_278b2] Error 1
+CMakeFiles/cmTC_781ba.dir/build.make:97: recipe for target 'cmTC_781ba' failed
+make[1]: *** [cmTC_781ba] Error 1
 make[1]: Leaving directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_278b2/fast' failed
-make: *** [cmTC_278b2/fast] Error 2
+Makefile:126: recipe for target 'cmTC_781ba/fast' failed
+make: *** [cmTC_781ba/fast] Error 2
 
 File /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,38 +36,38 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f315/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6f315.dir/build.make CMakeFiles/cmTC_6f315.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e0420/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0420.dir/build.make CMakeFiles/cmTC_e0420.dir/build
 make[1]: Entering directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6f315.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6f315.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6f315
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f315.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6f315.dir/CheckFunctionExists.c.o  -o cmTC_6f315 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_e0420.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e0420.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0420.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e0420.dir/CheckFunctionExists.c.o  -o cmTC_e0420 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6f315.dir/build.make:97: recipe for target 'cmTC_6f315' failed
-make[1]: *** [cmTC_6f315] Error 1
+CMakeFiles/cmTC_e0420.dir/build.make:97: recipe for target 'cmTC_e0420' failed
+make[1]: *** [cmTC_e0420] Error 1
 make[1]: Leaving directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6f315/fast' failed
-make: *** [cmTC_6f315/fast] Error 2
+Makefile:126: recipe for target 'cmTC_e0420/fast' failed
+make: *** [cmTC_e0420/fast] Error 2
 
 
 Determining if the CL_VERSION_2_0 exist failed with the following output:
 Change Dir: /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_752bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_752bc.dir/build.make CMakeFiles/cmTC_752bc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8f353/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f353.dir/build.make CMakeFiles/cmTC_8f353.dir/build
 make[1]: Entering directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_752bc.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_752bc.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_8f353.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8f353.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_752bc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_752bc.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_752bc.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_8f353.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f353.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f353.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_752bc/fast' failed
-make: *** [cmTC_752bc/fast] Error 2
+Makefile:126: recipe for target 'cmTC_8f353/fast' failed
+make: *** [cmTC_8f353/fast] Error 2
 
 File /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -87,18 +87,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_1_2 exist failed with the following output:
 Change Dir: /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6992c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6992c.dir/build.make CMakeFiles/cmTC_6992c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a9e09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9e09.dir/build.make CMakeFiles/cmTC_a9e09.dir/build
 make[1]: Entering directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6992c.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_6992c.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_a9e09.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a9e09.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_6992c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6992c.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_6992c.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_a9e09.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a9e09.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a9e09.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6992c/fast' failed
-make: *** [cmTC_6992c/fast] Error 2
+Makefile:126: recipe for target 'cmTC_a9e09/fast' failed
+make: *** [cmTC_a9e09/fast] Error 2
 
 File /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -118,18 +118,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_1_1 exist failed with the following output:
 Change Dir: /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44a8c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44a8c.dir/build.make CMakeFiles/cmTC_44a8c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_76c68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76c68.dir/build.make CMakeFiles/cmTC_76c68.dir/build
 make[1]: Entering directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44a8c.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_44a8c.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_76c68.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_76c68.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_44a8c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_44a8c.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_44a8c.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_76c68.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_76c68.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_76c68.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_44a8c/fast' failed
-make: *** [cmTC_44a8c/fast] Error 2
+Makefile:126: recipe for target 'cmTC_76c68/fast' failed
+make: *** [cmTC_76c68/fast] Error 2
 
 File /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -149,18 +149,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_1_0 exist failed with the following output:
 Change Dir: /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a581b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a581b.dir/build.make CMakeFiles/cmTC_a581b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_beb25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_beb25.dir/build.make CMakeFiles/cmTC_beb25.dir/build
 make[1]: Entering directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a581b.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a581b.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_beb25.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_beb25.dir/CheckSymbolExists.c.o   -c /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_a581b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a581b.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_a581b.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_beb25.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_beb25.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_beb25.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/cobdor/bogertws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a581b/fast' failed
-make: *** [cmTC_a581b/fast] Error 2
+Makefile:126: recipe for target 'cmTC_beb25/fast' failed
+make: *** [cmTC_beb25/fast] Error 2
 
 File /home/cobdor/bogertws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

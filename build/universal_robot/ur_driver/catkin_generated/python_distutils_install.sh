@@ -25,7 +25,7 @@ echo_and_run mkdir -p "$DESTDIR/home/cobdor/bogertws/install/lib/python2.7/dist-
 echo_and_run /usr/bin/env \
     PYTHONPATH="/home/cobdor/bogertws/install/lib/python2.7/dist-packages:/home/cobdor/bogertws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/cobdor/bogertws/build" \
-    "/usr/bin/python" \
+    "/usr/bin/python2" \
     "/home/cobdor/bogertws/src/universal_robot/ur_driver/setup.py" \
     build --build-base "/home/cobdor/bogertws/build/universal_robot/ur_driver" \
     install \

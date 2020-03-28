@@ -2272,6 +2272,123 @@ trajectory_msgs_generate_messages_lisp/fast:
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named moveit_ros_manipulation_gencfg
+
+# Build rule for target.
+moveit_ros_manipulation_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_ros_manipulation_gencfg
+.PHONY : moveit_ros_manipulation_gencfg
+
+# fast build rule for target.
+moveit_ros_manipulation_gencfg/fast:
+	$(MAKE) -f pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build.make pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build
+.PHONY : moveit_ros_manipulation_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named pick_place
+
+# Build rule for target.
+pick_place: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pick_place
+.PHONY : pick_place
+
+# fast build rule for target.
+pick_place/fast:
+	$(MAKE) -f pick_place/CMakeFiles/pick_place.dir/build.make pick_place/CMakeFiles/pick_place.dir/build
+.PHONY : pick_place/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_full_robot_moveit_config_roslaunch-check
+
+# Build rule for target.
+_run_tests_full_robot_moveit_config_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_full_robot_moveit_config_roslaunch-check
+.PHONY : _run_tests_full_robot_moveit_config_roslaunch-check
+
+# fast build rule for target.
+_run_tests_full_robot_moveit_config_roslaunch-check/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir/build
+.PHONY : _run_tests_full_robot_moveit_config_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_full_robot_moveit_config
+
+# Build rule for target.
+_run_tests_full_robot_moveit_config: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_full_robot_moveit_config
+.PHONY : _run_tests_full_robot_moveit_config
+
+# fast build rule for target.
+_run_tests_full_robot_moveit_config/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config.dir/build
+.PHONY : _run_tests_full_robot_moveit_config/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_full_robot_moveit_config_roslaunch-check
+
+# Build rule for target.
+run_tests_full_robot_moveit_config_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_full_robot_moveit_config_roslaunch-check
+.PHONY : run_tests_full_robot_moveit_config_roslaunch-check
+
+# fast build rule for target.
+run_tests_full_robot_moveit_config_roslaunch-check/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check.dir/build
+.PHONY : run_tests_full_robot_moveit_config_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+
+# Build rule for target.
+run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+.PHONY : run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+
+# fast build rule for target.
+run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
+.PHONY : run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+
+# Build rule for target.
+_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+.PHONY : _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
+
+# fast build rule for target.
+_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
+.PHONY : _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_full_robot_moveit_config
+
+# Build rule for target.
+run_tests_full_robot_moveit_config: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_full_robot_moveit_config
+.PHONY : run_tests_full_robot_moveit_config
+
+# fast build rule for target.
+run_tests_full_robot_moveit_config/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/run_tests_full_robot_moveit_config.dir/build
+.PHONY : run_tests_full_robot_moveit_config/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_full_robot_moveit_config
+
+# Build rule for target.
+clean_test_results_full_robot_moveit_config: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_full_robot_moveit_config
+.PHONY : clean_test_results_full_robot_moveit_config
+
+# fast build rule for target.
+clean_test_results_full_robot_moveit_config/fast:
+	$(MAKE) -f full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build.make full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build
+.PHONY : clean_test_results_full_robot_moveit_config/fast
+
+#=============================================================================
 # Target rules for targets named run_tests_ur10_e_moveit_config_roslaunch-check
 
 # Build rule for target.
@@ -2992,6 +3109,15 @@ help:
 	@echo "... trajectory_msgs_generate_messages_eus"
 	@echo "... object_recognition_msgs_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... moveit_ros_manipulation_gencfg"
+	@echo "... pick_place"
+	@echo "... _run_tests_full_robot_moveit_config_roslaunch-check"
+	@echo "... _run_tests_full_robot_moveit_config"
+	@echo "... run_tests_full_robot_moveit_config_roslaunch-check"
+	@echo "... run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml"
+	@echo "... _run_tests_full_robot_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml"
+	@echo "... run_tests_full_robot_moveit_config"
+	@echo "... clean_test_results_full_robot_moveit_config"
 	@echo "... run_tests_ur10_e_moveit_config_roslaunch-check"
 	@echo "... run_tests_ur10_e_moveit_config"
 	@echo "... _run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml"

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cobdor/bogertws/build
 include universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/progress.make
 
 universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config:
-	cd /home/cobdor/bogertws/build/universal_robot/ur3_e_moveit_config && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/cobdor/bogertws/build/test_results/ur3_e_moveit_config
+	cd /home/cobdor/bogertws/build/universal_robot/ur3_e_moveit_config && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/cobdor/bogertws/build/test_results/ur3_e_moveit_config
 
 clean_test_results_ur3_e_moveit_config: universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config
 clean_test_results_ur3_e_moveit_config: universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/build.make

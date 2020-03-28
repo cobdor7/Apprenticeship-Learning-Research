@@ -1,0 +1,8 @@
+prefix=/home/cobdor/bogertws/install
+
+Name: rg2_gripper
+Description: Description of rg2_gripper
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy control_msgs
